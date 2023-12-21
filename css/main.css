@@ -25,4 +25,31 @@ body {
     height: 100px;
     width: 100px;
     background-color: aquamarine;
+    animation: box-color 5s infinite ease;
+}
+@keyframes box-color {
+    0% {
+        background-color: #7fffd4;
+        transform: translateY(110px);
+    }
+    20% {
+        background-color: #8eff7f;
+        transform: translateY(140px);
+    }
+    40% {
+        background-color: #ff7fff;
+        transform: translateY(160px);
+    }
+    60% {
+        background-color: #ffe87f;
+        transform: translateY(130px);
+    }
+    80% {
+        background-color: #cc7fff;
+        transform: translateY(90px);
+    }
+    100% {
+        background-color: #7fffd4;
+        transform: translateY(110px);
+    }
 }
