@@ -11,6 +11,16 @@ body {
     align-items: center;
     justify-content: center;
 }
+.box-box-box {
+    height: 800px;
+    width: 100%;
+    background-color: black;
+    gap: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .box-box {
     height: 300px;
     width: 100%;
